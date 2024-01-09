@@ -1,0 +1,153 @@
+body{
+  background-color: #958f8f14;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+  position: relative;
+}
+.form-content{
+  z-index: 9999;
+ } 
+.form-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_bg{
+  display: flex;
+  justify-content: center;
+}
+.logo_bg img{
+  position: absolute;
+    height: 100vh;
+}
+.form-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(32, 64, 154);
+}
+tr.patient-name {
+  border-bottom: 1px solid black;
+}
+.patient-name th{
+  border-right: none;
+}
+
+.gender th{
+  border-top: 1px solid #0000;
+}
+.form-container{
+  margin: 0px 95px 20px 95px;
+ 
+}
+.gender .black, .date-of-birth .black, .nationality .black,
+ .contact .black, .another-contact .black, .merital-status .black{
+  border-left: none;
+  border-right: none;
+}
+.date-of-birth .family{
+  width: 15%;
+  border-right: none;
+}
+.date-of-birth .black_0{
+  width: 8%;
+}
+.nid .black_0{
+  width: 7%;
+}
+.nationality{
+  border-bottom: 1px solid black;
+}
+.nationality .black_0{
+  width: 30%;
+  border-right: none;
+}
+
+.gender .gender_4, .merital-status .black_0{
+  border-right: none;
+}
+.contact{
+  border-bottom: 1px solid black;
+}
+.contact .email{
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+.another-contact .email{
+  border-top: 1px solid black;
+
+}
+.another-contact .mobile{
+  border-right: none;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px 23px 5px 16px;
+ 
+}
+.parents_th{
+
+  border: 1px solid black;
+}
+/* Address  */
+ .address-section{
+  margin-top: 6%;
+}
+.address-header{
+  background-color: rgb(230, 199, 116) ;
+}
+.info-section table{
+  text-wrap: nowrap;
+  text-align: left;
+}
+
+
+/* Footer table  */
+.footer-table{
+  margin-top: 5%;
+  text-align: left;
+  
+}
+.footer-table .info-right{
+  padding: 10px;
+}
+
+/* Footer section  */
+.footer{
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-sign {
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  /* padding-top: -6rem; */
+}
+.footer-sign h4{
+  margin-top: 0.2rem;
+  padding: 22px -3px 12px 0px;
+  padding-left: 10px;
+  padding-right: 14px;
+}
+
+/* .footer .footer-sign h4::before, .footer-sign h4::before{
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-flex;
+  background:rgba(14, 13, 13, 0.534);
+  margin: 4px 10px;
+} */
